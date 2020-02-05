@@ -21,7 +21,7 @@ export default class App extends Component {
                   </h1>
                   <div>
                       <Switch>
-                          {/*<Route path="/" exact={true} component={TodoList} />*/}
+                          <Route path="/" exact={true} component={TodoList} />
                           {/*<Route path="/todo/new" exact={true} component={NewTodo} />*/}
                       </Switch>
                   </div>
